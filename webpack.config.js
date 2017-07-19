@@ -5,12 +5,14 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         // 可对应多个入口文件
-        app: ['./src/js/index.js']
+        app: ['./src/js/index.js'],
+        'app-linkage': ['./src/js/test/selected-linkage/app.js']
+
     },
     devtool: 'source-map', // 输出source-map
     output:{
         path:path.resolve(__dirname, './build/'),
-        filename:'app.js'
+        filename: '[name].js'
     },
     devServer: {
         contentBase: './',
@@ -27,6 +29,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'aaaa',
             template: 'index.html'
+            
         }),
         new webpack.HotModuleReplacementPlugin()
     ]

@@ -63,7 +63,6 @@ class App extends Component {
         let ht = <div className="main">
                     <h2>表格数据列表</h2>
                     <div >{this.state.ul}</div>
-                    <div>{this.state}</div>
         </div>
         return (ht);
     }
