@@ -13,13 +13,16 @@
 
 下载代码
 
-git clone https://github.com/wyl320/react-work.git
+> git clone https://github.com/wyl320/react-work.git
+
 安装
 
-npm install 或者 cnpm install
+> npm install 或者 cnpm install
+
 开始运行
 
-npm start
+> npm start
+
 测试地址：
 
 http://localhost:8080/xxx.html
