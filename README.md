@@ -11,6 +11,19 @@
 
 	index.js 为默认demo展示(和test目录中的demo相同，具有同样的目录和组件)
 
+下载代码
+
+git clone https://github.com/wyl320/react-work.git
+安装
+
+npm install 或者 cnpm install
+开始运行
+
+npm start
+测试地址：
+
+http://localhost:8080/xxx.html
+
 ### selected-linkage	意图编写一个三级联动组件。
 -----------------start-数据格式----------------
 > 	{"data":[
